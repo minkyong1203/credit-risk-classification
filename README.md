@@ -4,8 +4,6 @@
 
 ## Overview of the Analysis
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
-
 * The purpose of this analysis is to use logistic regression to predict the creditworthiness of a borrower, based on loan risk. Then, we evaluate how accurate the logistic regression model's predictions are, in labelling healthy loans vs. high-risk loans.
 * The fniancial information the data provided were: the size of the loan, interest rate, borrower income, debt to income ratio, number of accounts, derogatory marks, and total debt. With this information, the goal was to predict if the borrower is credit-worthy or not, or in other words, if their loan is healthy vs. at risk. 
 * The value counts of the labels variable (loan status) was as follows: Number of 0 (healthy loans): 75036, Number of 1 (at-risk loans): 2500.
@@ -19,16 +17,16 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 
 * Machine Learning Model 1 (Initial Logistic Regression):
 
-The accuracy of Model 1 is 99% overall, with 100% for healthy loans and 88% for at-risk loans.
-The precision of Model 1 is 100% for healthy loans and 85% for at-risk loans. This means 100% of the predictions the model made as having a healthy loan, actually did have a healthy loan. On the other hand, only 85% of the predictions the model made as having an at-risk loan, actually had an at-risk loan.
-The recall score of Model 1 is 99% for healthy loans and 91% for at-risk loans. This means of all the healthy loans, 99% of them were correctly classified as healthy loans. For at-risk loans, of all the actual at-risk loans, 91% of them were correctly classified as at-risk loans.
+* The accuracy of Model 1 is 99% overall, with 100% for healthy loans and 88% for at-risk loans.
+* The precision of Model 1 is 100% for healthy loans and 85% for at-risk loans. This means 100% of the predictions the model made as having a healthy loan, actually did have a healthy loan. On the other hand, only 85% of the predictions the model made as having an at-risk loan, actually had an at-risk loan.
+* The recall score of Model 1 is 99% for healthy loans and 91% for at-risk loans. This means of all the healthy loans, 99% of them were correctly classified as healthy loans. For at-risk loans, of all the actual at-risk loans, 91% of them were correctly classified as at-risk loans.
 
 
 * Machine Learning Model 2 (Logistic Regression after Resampling):
 
-The accuracy of Model 1 is 99% overall, with 100% for healthy loans and 91% for at-risk loans.
-The precision of Model 1 is 100% for healthy loans and 84% for at-risk loans. This means 100% of the predictions the model made as having a healthy loan, actually did have a healthy loan. On the other hand, only 84% of the predictions the model made as having an at-risk loan, actually had an at-risk loan. There is not much difference compared to precision scores from the first modeling.
-The recall score of Model 1 is 99% for healthy loans and also 99% for at-risk loans. This means both for healthy and at-risk loans, 99% of the actual healthy and at-risk were correctly classified. This is an improvement in the recall score for the at-risk loans after resampling.
+* The accuracy of Model 1 is 99% overall, with 100% for healthy loans and 91% for at-risk loans.
+* The precision of Model 1 is 100% for healthy loans and 84% for at-risk loans. This means 100% of the predictions the model made as having a healthy loan, actually did have a healthy loan. On the other hand, only 84% of the predictions the model made as having an at-risk loan, actually had an at-risk loan. There is not much difference compared to precision scores from the first modeling.
+* The recall score of Model 1 is 99% for healthy loans and also 99% for at-risk loans. This means both for healthy and at-risk loans, 99% of the actual healthy and at-risk were correctly classified. This is an improvement in the recall score for the at-risk loans after resampling.
 
 ## Summary
 
