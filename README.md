@@ -15,14 +15,14 @@
 
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
-* Machine Learning Model 1 (Initial Logistic Regression):
+Machine Learning Model 1 (Initial Logistic Regression):
 
 * The accuracy of Model 1 is 99% overall, with 100% for healthy loans and 88% for at-risk loans.
 * The precision of Model 1 is 100% for healthy loans and 85% for at-risk loans. This means 100% of the predictions the model made as having a healthy loan, actually did have a healthy loan. On the other hand, only 85% of the predictions the model made as having an at-risk loan, actually had an at-risk loan.
 * The recall score of Model 1 is 99% for healthy loans and 91% for at-risk loans. This means of all the healthy loans, 99% of them were correctly classified as healthy loans. For at-risk loans, of all the actual at-risk loans, 91% of them were correctly classified as at-risk loans.
 
 
-* Machine Learning Model 2 (Logistic Regression after Resampling):
+Machine Learning Model 2 (Logistic Regression after Resampling):
 
 * The accuracy of Model 1 is 99% overall, with 100% for healthy loans and 91% for at-risk loans.
 * The precision of Model 1 is 100% for healthy loans and 84% for at-risk loans. This means 100% of the predictions the model made as having a healthy loan, actually did have a healthy loan. On the other hand, only 84% of the predictions the model made as having an at-risk loan, actually had an at-risk loan. There is not much difference compared to precision scores from the first modeling.
